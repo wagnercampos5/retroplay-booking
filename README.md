@@ -35,9 +35,9 @@ MVP de uma plataforma web de agendamento de horários para espaços físicos de 
 ## 4. A tese que o MVP testa e o que ficou manual de propósito
 * **A Tese:** Jogadores preferem reservar seu console antecipadamente por um link rápido em vez de ir ao local sem garantia de vaga; proprietários preferem visualizar e atualizar o status das máquinas em um painel digital a anotar no papel.
 * **O que ficou manual de propósito:**
-  * **Pagamento:** Não há gateway de pagamento (Stripe ou Pix automático) integrado nesta versão[cite: 6]. Ao confirmar o formulário, o pedido é registrado no banco e redirecionado ao WhatsApp do proprietário, que confirma a reserva e recebe o pagamento manualmente (Pix ou dinheiro no balcão)[cite: 6].
+  * **Pagamento:** Não há gateway de pagamento (Stripe ou Pix automático) integrado nesta versão[cite: 6]. Ao confirmar o formulário, o pedido é registrado no banco e redirecionado ao WhatsApp do proprietário, que confirma a reserva e recebe o pagamento manualmente (Pix ou dinheiro no balcão).
   * **Controle de tempo físico:** O controle de ligar/desligar a TV ou console segue sob operação manual do proprietário, guiado pelos status do painel (`Pendente → Confirmado → Jogando → Finalizado`).
-  * **Autenticação administrativa:** A rota `/admin` permanece aberta nesta etapa para agilizar os testes de validação do MVP, tendo como próximo passo técnico a implementação de login para o proprietário[cite: 11].
+  * **Autenticação administrativa:** A rota `/admin` permanece aberta nesta etapa para agilizar os testes de validação do MVP, tendo como próximo passo técnico a implementação de login para o proprietário.
 
 ---
 
