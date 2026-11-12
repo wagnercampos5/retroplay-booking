@@ -12,7 +12,7 @@ describe("booking rules", () => {
   it("builds wa.me link with booking data", () => {
     const url = buildWhatsAppUrl(base);
     expect(url.startsWith("https://wa.me/5511999999999?text=")).toBe(true);
-    const text = decodeURIComponent(url.split("text=")[1]);
+    const text = decodeURIComponent(url.split("text=")[1] ?? "");
     expect(text).toContain("Ana");
     expect(text).toContain("20/11/2026 às 14:00");
     expect(text).toContain("2h");
