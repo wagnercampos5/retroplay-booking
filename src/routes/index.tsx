@@ -124,10 +124,10 @@ function BookingForm() {
       <p className="mt-2 text-sm text-muted-foreground">Preencha e confirme direto no WhatsApp.</p>
 
       <div className="mt-6 space-y-5">
-        <Field label="Nome do Jogador" error={errors.player_name}>
+        <Field label="Nome do Jogador" error={errors["player_name"]}>
           <Input value={name} onChange={(e) => setName(e.target.value)} maxLength={80} placeholder="Ex: Player One" />
         </Field>
-        <Field label="Console" error={errors.console}>
+        <Field label="Console" error={errors["console"]}>
           <Select value={consoleName} onValueChange={setConsoleName}>
             <SelectTrigger><SelectValue placeholder="Escolha o console" /></SelectTrigger>
             <SelectContent>
@@ -136,10 +136,10 @@ function BookingForm() {
           </Select>
         </Field>
         <div className="grid gap-5 sm:grid-cols-2">
-          <Field label="Data" error={errors.booking_date}>
+          <Field label="Data" error={errors["booking_date"]}>
             <Input type="date" min={today} value={date} onChange={(e) => setDate(e.target.value)} className="[color-scheme:dark]" />
           </Field>
-          <Field label="Horário" error={errors.booking_time}>
+          <Field label="Horário" error={errors["booking_time"]}>
             <Select value={time} onValueChange={setTime}>
               <SelectTrigger><SelectValue placeholder="Escolha" /></SelectTrigger>
               <SelectContent>
