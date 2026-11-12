@@ -1,6 +1,6 @@
 # RetroPlay Booking — Sistema de Agendamento para Locadoras de Videogame
 
-MVP de uma plataforma web de agendamento de horários para espaços físicos de jogos, fliperamas modernos e locadoras de videogames retrô (PS2, PS4, Xbox)[cite: 6, 11]. Desenvolvido durante o bootcamp **Santander - Construa seu primeiro App com IA** (DIO)[cite: 1, 2] utilizando **Lovable** e **Lovable Cloud**[cite: 6].
+MVP de uma plataforma web de agendamento de horários para espaços físicos de jogos, fliperamas modernos e locadoras de videogames retrô (PS2, PS4, Xbox). Desenvolvido durante o bootcamp **Santander - Construa seu primeiro App com IA** (DIO) utilizando **Lovable** e **Lovable Cloud**.
 
 🔗 **Aplicação publicada:** https://retroplay-booking.lovable.app/
 
