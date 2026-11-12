@@ -77,3 +77,16 @@ A aplicação deve conter as seguintes funcionalidades, todas na mesma SPA (Sing
   - Botões para o dono alterar o status do agendamento manualmente (ex: de Pendente para Confirmado).
 
 Crie a estrutura completa, conecte os formulários ao Lovable Cloud para o armazenamento de dados e garanta que o design responsivo funcione perfeitamente no celular.
+
+---
+
+## 6. Evidências da Aplicação (Screenshots)
+
+### 1. Página Inicial (Landing Page)
+<img width="1366" height="768" alt="play1" src="https://github.com/user-attachments/assets/85eb7d95-de8d-4614-8115-ae3fe5b19aa8" />
+
+### 2. Formulário de Agendamento
+<img width="1366" height="768" alt="play2" src="https://github.com/user-attachments/assets/f441bb1c-a778-4723-8512-b0c58e1a8023" />
+
+### 3. Painel Administrativo (/admin)
+<img width="1366" height="768" alt="play3" src="https://github.com/user-attachments/assets/927d2b05-0acc-4031-90a1-eb9b9266e124" />
