@@ -78,6 +78,8 @@ A aplicação deve conter as seguintes funcionalidades, todas na mesma SPA (Sing
 
 Crie a estrutura completa, conecte os formulários ao Lovable Cloud para o armazenamento de dados e garanta que o design responsivo funcione perfeitamente no celular.
 
+```
+
 ---
 
 ## 6. Evidências da Aplicação (Screenshots)
