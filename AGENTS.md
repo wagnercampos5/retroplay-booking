@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- Bookings table is service-role only (RLS on, no policies); all reads/writes go through server functions in src/lib/bookings.functions.ts. Why: admin has no login yet, so the browser never touches the table directly.
+- Booking rules (schema, WhatsApp message, status order) live in src/lib/booking.ts with tests in src/lib/booking.test.ts. Why: one shared source for form, server and admin.
