@@ -33,5 +33,5 @@ export function buildWhatsAppUrl(b: BookingInput) {
 
 export function nextStatus(s: BookingStatus): BookingStatus | null {
   const i = STATUSES.indexOf(s);
-  return i < STATUSES.length - 1 ? STATUSES[i + 1] : null;
+  return STATUSES[i + 1] ?? null;
 }
